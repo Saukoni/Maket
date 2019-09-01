@@ -161,4 +161,48 @@ body {
 .products {
   padding-top: 80px; }
 
+.block__head {
+  color: #292929;
+  font-family: "Gotham Pro B";
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 17px;
+  margin-bottom: 60px; }
+
+.card {
+  border: 2px solid #f6f6f6;
+  padding: 37px 23px;
+  text-align: center; }
+  .card__container {
+    display: flex;
+    justify-content: space-between; }
+  .card:nth-child(2) .card__img {
+    padding-top: 14px; }
+  .card:nth-child(2) .card__head {
+    margin-top: 46px; }
+  .card:nth-child(3) {
+    padding-top: 4px; }
+  .card__head {
+    display: inline-block;
+    color: #292929;
+    text-align: center;
+    font-family: "Gotham Pro B";
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    line-height: 14px;
+    margin-top: 32px;
+    margin-bottom: 19px; }
+  .card__desc {
+    color: #626262;
+    text-align: center;
+    font-family: "Gotham Pro";
+    font-size: 13px;
+    margin-bottom: 29px; }
+  .card__price {
+    color: #0f0f0f;
+    text-align: center;
+    font-family: "Gotham Pro B";
+    font-size: 16px; }
+
 /*# sourceMappingURL=style.css.map */
